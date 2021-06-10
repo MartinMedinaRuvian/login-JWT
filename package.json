@@ -1,0 +1,26 @@
+{
+  "name": "login_passport",
+  "version": "1.0.0",
+  "description": "Aprendiendo hacer un login con express y passport",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node app.js --exec"
+  },
+  "author": "Martin de Jesus Medina Ruvian",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.3",
+    "morgan": "^1.9.1",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.8.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
